@@ -128,6 +128,9 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
     if to_show:
         plt.tight_layout()
         plt.show()
+
+    else:
+        plt.close()
     print(loadings)
     loadings_df = pd.DataFrame(loadings[:, 0:2],
                                index=feature_names,

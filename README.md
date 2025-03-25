@@ -44,6 +44,13 @@ Then run:
 python data_analysis_main.py
 ```
 
+If you want to run specific script e.g only for heatmap 
+you have to:
+```bash
+cd data_analysis
+python "script_name"
+```
+
 ## Libraries Used
 - Pandas
 - Seaborn

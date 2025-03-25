@@ -111,6 +111,8 @@ def error_bars_analyse(df: pd.DataFrame, to_show: bool):
         for p in plots_to_show:
             p.show()
         plt.show()
+    else:
+        plt.close()
 
     df['Gender'] = df['Gender'].map({
         "Male":1,

@@ -74,18 +74,15 @@ def regression_analyse(df:pd.DataFrame,to_show:bool, x_name:str,y_name:str):
         ax_name.set_title(f'{y_name} ~ {x_name}')
         if to_show:
             plt.show()
-            return [(desc,fig)]
         else:
             plt.close()
     else:
         raise "Error"
-    return
+    return [(desc, fig)]
 
 if __name__ == '__main__':
     path = path_to_file()
     df = load_data(path)
-  #  x = "Age at enrollment"
-   # y = "Married"
     x = "GDP"
     y = "Curricular units 1st sem (grade)"
     regression_analyse(df,True,x,y)

@@ -52,6 +52,8 @@ def violin_plot_analyse(df: pd.DataFrame, to_show: bool):
         for p in plots:
             p.show()
         plt.show()
+    else:
+        plt.close()
     return plots
 
 
