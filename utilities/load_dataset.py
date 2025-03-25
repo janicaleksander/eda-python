@@ -1,0 +1,16 @@
+import os
+import pandas as pd
+
+# Most popular file types that is easy convert to pandas
+def load_data(path:str) -> pd.DataFrame :
+    if os.path.isfile(path):
+        _, file_extension = os.path.splitext(path)
+        if file_extension == ".csv":
+            return pd.read_csv(path)
+        elif file_extension == ".parquet":
+            return pd.read_parquet(path)
+        else:
+            raise Exception("Wrong file type")
+    else:
+        raise Exception("Wrong path")
+
