@@ -29,7 +29,7 @@ venv_name\Scripts\activate
 
 Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ you have to:
 cd data_analysis
 python "script_name"
 ```
-
+If you have problem with showing  plots you have to install python3-tkinter (especially when you are working on Linux)
 ## Libraries Used
 - Pandas
 - Seaborn
