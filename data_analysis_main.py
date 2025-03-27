@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from data_analysis.PCA import PCA_analyse
 from data_analysis.heatmap import heatmap_analyse
 from data_analysis.histograms import histogram_analyse
-from data_analysis.regression import regression_analyse
+from data_analysis.regression import regression_analyse, run_regression
 from data_analysis.violin_plot import violin_plot_analyse
 
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -58,22 +58,13 @@ def save_analysis(t_shw):
     for i,fig in enumerate(heatmap_fig):
         fig.savefig(os.path.join(HEATMAP_DIR, f'wykres_heat_{i}'),dpi=300)
 
-#poprawić to zeby to wybieranie bylo jednak w srkypice regression
-    tuples = [
-        ("Age at enrollment","Curricular units 1st sem (grade)"),
-        ("Curricular units 1st sem (approved)","Curricular units 1st sem (grade)"),
-        ("Gender", "Curricular units 1st sem (grade)"),
-        ("Age at enrollment", "Married" ),
-        ("GDP","Curricular units 1st sem (grade)")
 
-    ]
-    for j, (t1, t2) in enumerate(tuples):
-        regression_fig = regression_analyse(df, t_shw, t1, t2)
-        for i, pack in enumerate(regression_fig):
-            pack[1].savefig(os.path.join(REGRESSION_DIR, f'regression_{j}_{i}'), dpi=300)
-            name = os.path.join(MODELSUM_DIR, f'model_summary{j}_{i}.txt')
-            with open(name, "w") as f:
-                f.write(pack[0])
+    regression_fig = run_regression(df,t_shw)
+    for i, (desc, fig) in enumerate(regression_fig):
+        fig.savefig(os.path.join(REGRESSION_DIR, f'regression_{i}'), dpi=300)
+        name = os.path.join(MODELSUM_DIR, f'model_summary{i}.txt')
+        with open(name, "w") as f:
+            f.write(desc)
 
     PCA_fig = PCA_analyse(df,t_shw)
     for i,fig in enumerate(PCA_fig):

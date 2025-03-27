@@ -80,9 +80,21 @@ def regression_analyse(df:pd.DataFrame,to_show:bool, x_name:str,y_name:str):
         raise "Error"
     return [(desc, fig)]
 
+def run_regression(df,to_show):
+    tuples = [
+        ("Age at enrollment","Curricular units 1st sem (grade)"),
+        ("Curricular units 1st sem (approved)","Curricular units 1st sem (grade)"),
+        ("Gender", "Curricular units 1st sem (grade)"),
+        ("Age at enrollment", "Married" ),
+        ("GDP","Curricular units 1st sem (grade)")
+
+    ]
+    lst = []
+    for i, (t1, t2) in enumerate(tuples):
+        regression_fig = regression_analyse(df, to_show, t1, t2)
+        lst.extend(regression_fig)
+    return lst
 if __name__ == '__main__':
     path = path_to_file()
     df = load_data(path)
-    x = "GDP"
-    y = "Curricular units 1st sem (grade)"
-    regression_analyse(df,True,x,y)
+    run_regression(df,False)

@@ -46,7 +46,6 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
     data_encoded = pd.get_dummies(data_selected, columns=["Marital status"])
     data_encoded.rename(columns=labels, inplace=True)
 
-    # Store the feature names for loadings plot
     feature_names = list(data_encoded.columns)
 
     x = data_encoded.values
@@ -119,11 +118,9 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
         ax2.text(x * 1.15, y * 1.15, feature_names[i],
                  color='r', ha='center', va='center', fontsize=10)
 
-    circle = plt.Circle((0, 0), radius=1, fill=False, color='gray', linestyle='--')
-    ax2.add_patch(circle)
 
-    print('Explained variance ratio of the 2 principal components:')
-    print(pca.explained_variance_ratio_)
+   # print('Explained variance ratio of the 2 principal components:')
+   # print(pca.explained_variance_ratio_)
 
     if to_show:
         plt.tight_layout()
@@ -131,11 +128,10 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
 
     else:
         plt.close()
-    print(loadings)
     loadings_df = pd.DataFrame(loadings[:, 0:2],
                                index=feature_names,
                                columns=['PC1', 'PC2'])
-    print(loadings_df.sort_values('PC1',ascending=False))
+ #   print(loadings_df.sort_values('PC1',ascending=False))
     return [fig1,fig2]
 
 
@@ -144,4 +140,3 @@ if __name__ == '__main__':
     df = load_data(path)
     PCA_analyse(df, True)
 
-   # print(loadings_df.sort_values('PC1', ascending=False))

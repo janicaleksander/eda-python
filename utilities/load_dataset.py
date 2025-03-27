@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 
-# Most popular file types that is easy convert to pandas
 def load_data(path:str) -> pd.DataFrame :
     if os.path.isfile(path):
         _, file_extension = os.path.splitext(path)

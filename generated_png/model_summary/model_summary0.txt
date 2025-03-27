@@ -4,7 +4,7 @@ Dep. Variable:     Curricular units 1st sem (grade)   R-squared:                
 Model:                                          OLS   Adj. R-squared:                  0.024
 Method:                               Least Squares   F-statistic:                     111.2
 Date:                              Tue, 25 Mar 2025   Prob (F-statistic):           1.08e-25
-Time:                                      21:07:30   Log-Likelihood:                -13202.
+Time:                                      22:01:12   Log-Likelihood:                -13202.
 No. Observations:                              4424   AIC:                         2.641e+04
 Df Residuals:                                  4422   BIC:                         2.642e+04
 Df Model:                                         1                                         
