@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-def load_data(path:str) -> pd.DataFrame :
+def load_data(path:str):
     if os.path.isfile(path):
         _, file_extension = os.path.splitext(path)
         if file_extension == ".csv":

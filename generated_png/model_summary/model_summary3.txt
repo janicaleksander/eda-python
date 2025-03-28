@@ -3,8 +3,8 @@
 Dep. Variable:                Married   No. Observations:                 4424
 Model:                          Logit   Df Residuals:                     4422
 Method:                           MLE   Df Model:                            1
-Date:                Tue, 25 Mar 2025   Pseudo R-squ.:                  0.3388
-Time:                        22:01:21   Log-Likelihood:                -855.29
+Date:                Thu, 27 Mar 2025   Pseudo R-squ.:                  0.3388
+Time:                        18:01:35   Log-Likelihood:                -855.29
 converged:                       True   LL-Null:                       -1293.6
 Covariance Type:            nonrobust   LLR p-value:                1.210e-192
 =====================================================================================

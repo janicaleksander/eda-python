@@ -105,21 +105,7 @@ def show_proportions_data(df):
 
 
 
-    #end----------
 
-    ax = sns.boxplot(data=df, x="Target", y="Curricular units 1st sem (grade)")
-    medians = df.groupby("Target")["Curricular units 1st sem (grade)"].median()
-
-    # Pobierz kategorię w takiej kolejności, w jakiej pojawiają się na wykresie
-    categories = df["Target"].unique()
-
-    # Przypisz mediany do odpowiednich kategorii
-    for i, category in enumerate(categories):
-        median_value = medians[category]
-        ax.text(i, median_value + 1, f'{median_value:.1f}',
-                horizontalalignment='center', color='black', weight='bold')
-
-    plt.show()
 
 if __name__ == '__main__':
     f_entry_data_analysis()

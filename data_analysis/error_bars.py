@@ -2,17 +2,14 @@ import os, sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from IPython.core.display_functions import display
 
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RESOURCES_DIR = os.path.join(parent_dir, 'resources')
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from utilities.dict_cat import get_dict
 from utilities.file_path import path_to_file
 from utilities.load_dataset import load_data
-from data_analysis.box_plot import box_plot_analyse
 
 
 def error_bars_analyse(df: pd.DataFrame, to_show: bool):

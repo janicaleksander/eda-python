@@ -10,7 +10,6 @@ RESOURCES_DIR = os.path.join(parent_dir, 'resources')
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from utilities.tools import add_median_to_plot_by_cat, draw_marital_status
 from utilities.file_path import path_to_file
 from utilities.load_dataset import load_data
 

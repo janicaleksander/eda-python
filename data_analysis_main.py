@@ -1,9 +1,6 @@
 # return : [files.csv] [images]
 import os,sys,csv,json
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 from data_analysis.PCA import PCA_analyse
 from data_analysis.heatmap import heatmap_analyse
@@ -26,9 +23,6 @@ VIOLIN_DIR = os.path.join(this_dir, 'generated_png/violin_plot')
 if parent_dir  or this_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from utilities.dict_cat import get_dict
-from utilities.file_path import path_to_file
-from utilities.load_dataset import load_data
 from data_analysis.box_plot import box_plot_analyse
 from data_analysis.error_bars import  *
 
@@ -70,5 +64,5 @@ def save_analysis(t_shw):
     for i,fig in enumerate(PCA_fig):
         fig.savefig(os.path.join(PCA_DIR, f'wykres_pca_{i}'),dpi=300)
 if __name__ == '__main__':
-    to_show = False
+    to_show = True
     save_analysis(to_show)

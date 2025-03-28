@@ -1,11 +1,7 @@
 import os, sys
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-import statsmodels.api as sm
-from IPython.core.pylabtools import figsize
-from scipy.stats import linregress
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
@@ -13,12 +9,9 @@ parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RESOURCES_DIR = os.path.join(parent_dir, 'resources')
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
-from utilities.tools import draw_heat_label
 
-from utilities.dict_cat import get_dict
 from utilities.file_path import path_to_file
 from utilities.load_dataset import load_data
-from data_analysis.box_plot import box_plot_analyse
 from utilities.CONSTANTS import *
 
 
@@ -59,17 +52,14 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
 
     final_df = pd.concat([principal_df, df[['Target']]], axis=1)
 
-    # Create the scatter plot
     plt.figure(figsize=(12, 10))
 
-    # Create a subplot for the scatter plot (data points)
     ax1 = plt.subplot(1, 1, 1)
 
     ax1.set_xlabel('Principal Component 1', fontsize=15)
     ax1.set_ylabel('Principal Component 2', fontsize=15)
     ax1.set_title('2 component PCA with Loadings', fontsize=20)
 
-    # Plot the data points colored by target
     targets = df['Target'].unique()
     colors = ['r', 'g', 'b']
 
@@ -83,14 +73,12 @@ def PCA_analyse(df: pd.DataFrame, to_show: bool):
     ax1.grid()
     fig1 = plt.gcf()
 
-    # Add loadings vectors to the same plot
     # Get the loadings
     loadings = pca.components_.T * np.sqrt(pca.explained_variance_)
 
-    # Scale the loadings for visualization
-    scaling = 5  # Adjust this value to change the length of arrows
 
-    # Plot loadings as vectors
+    scaling = 5
+
     for i, (x, y) in enumerate(loadings[:, 0:2]):
         ax1.arrow(0, 0, scaling * x, scaling * y, color='k', alpha=0.5,
                   head_width=0.1, head_length=0.2)

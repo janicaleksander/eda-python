@@ -9,12 +9,9 @@ parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RESOURCES_DIR = os.path.join(parent_dir, 'resources')
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
-from utilities.tools import draw_heat_label
 
-from utilities.dict_cat import get_dict
 from utilities.file_path import path_to_file
 from utilities.load_dataset import load_data
-from data_analysis.box_plot import box_plot_analyse
 
 
 
@@ -54,7 +51,6 @@ def heatmap_analyse(df:pd.DataFrame, to_show:bool):
         "Daytime/evening attendance_1":"Daytime attendance",
     }
 
-    # Tworzymy nowy DataFrame, zawierający tylko wybrane kolumny
     data_selected = df[selected_columns]
     data_selected.loc[:, "Target"] = data_selected["Target"].map({
         "Dropout": 1,
