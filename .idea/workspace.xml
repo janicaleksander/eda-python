@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0172dbab-ccbd-4fb7-96ec-67b51aa164f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/EDA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytorchLogisticRegression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_jupyter.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipeline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lista1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/heatmap/wykres_heat_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/pca/wykres_pca_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/pca/wykres_pca_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;janicaleksander&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/janicaleksander/eda-python.git&quot;,
+    &quot;accountId&quot;: &quot;67150944-6bf6-4677-b858-41b393751a43&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vqwgqMyUjqTptevK82SLxcdv45" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "BibTeX.null bibliography.executor": "Run",
+    "LaTeX.score_table.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Aleksander/Desktop/Decyzyjne/Laby/EDA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksander\Desktop\Decyzyjne\Laby\EDA" />
+      <recent name="C:\Users\Aleksander\Desktop\Decyzyjne\Laby\EDA\examples" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler />
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file />
+        <aux-dir />
+        <latex-distribution>PROJECT_SDK</latex-distribution>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration name="null bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/score_table.tex</main-file>
+        <aux-dir />
+        <latex-distribution>PROJECT_SDK</latex-distribution>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0172dbab-ccbd-4fb7-96ec-67b51aa164f1" name="Changes" comment="" />
+      <created>1744886027472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744886027472</updated>
+      <workItem from="1744886029509" duration="40821000" />
+      <workItem from="1745008421732" duration="15516000" />
+      <workItem from="1745407412235" duration="22000" />
+      <workItem from="1745489910956" duration="34709000" />
+      <workItem from="1745752828694" duration="1282000" />
+      <workItem from="1745754704553" duration="3809000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

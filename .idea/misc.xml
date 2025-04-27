@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="msid_lista_1" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="msid_lista_1" project-jdk-type="Python SDK" />
 </project>
