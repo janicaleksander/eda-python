@@ -4,58 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0172dbab-ccbd-4fb7-96ec-67b51aa164f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EDA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PytorchLogisticRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_jupyter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipeline.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lista1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/box_plot/wykres_box_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/error_bars/wykres_error_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/heatmap/wykres_heat_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/histogram/wykres_hist_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/model_summary/model_summary4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/pca/wykres_pca_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/pca/wykres_pca_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/regression/regression_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_png/violin_plot/wykres_violin_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="0172dbab-ccbd-4fb7-96ec-67b51aa164f1" name="Changes" comment="Add calculations scores">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PytorchLogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PytorchLogisticRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raport.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/raport.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,24 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "BibTeX.null bibliography.executor": "Run",
-    "LaTeX.score_table.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Aleksander/Desktop/Decyzyjne/Laby/EDA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;BibTeX.null bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.score_table.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aleksander/Desktop/Decyzyjne/Laby/EDA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aleksander\Desktop\Decyzyjne\Laby\EDA" />
@@ -118,9 +74,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+    <configuration name="null bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
-        <compiler />
+        <compiler>BIBTEX</compiler>
         <compiler-path />
         <compiler-arguments />
         <envs />
@@ -130,24 +86,12 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
-    <configuration name="null bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-bibtex>
-        <compiler>BIBTEX</compiler>
-        <compiler-path />
-        <compiler-arguments />
-        <envs />
-        <main-file>$PROJECT_DIR$/score_table.tex</main-file>
-        <aux-dir />
-        <latex-distribution>PROJECT_SDK</latex-distribution>
-      </texify-bibtex>
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
+        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
       </set>
     </attachedChunks>
   </component>
@@ -164,11 +108,43 @@
       <workItem from="1745407412235" duration="22000" />
       <workItem from="1745489910956" duration="34709000" />
       <workItem from="1745752828694" duration="1282000" />
-      <workItem from="1745754704553" duration="3809000" />
+      <workItem from="1745754704553" duration="4653000" />
+      <workItem from="1745991559750" duration="41000" />
+      <workItem from="1746098339367" duration="256000" />
+      <workItem from="1746448455780" duration="235000" />
+      <workItem from="1746537983235" duration="6000" />
+      <workItem from="1746565898552" duration="319000" />
+      <workItem from="1746716158784" duration="2068000" />
+      <workItem from="1746727292611" duration="2283000" />
+      <workItem from="1746729877572" duration="198000" />
+      <workItem from="1746786090918" duration="1810000" />
+      <workItem from="1746792327046" duration="109000" />
     </task>
+    <task id="LOCAL-00001" summary="II part finished: own implementation of linear and logistic regression">
+      <option name="closed" value="true" />
+      <created>1745761301170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745761301170</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add calculations scores">
+      <option name="closed" value="true" />
+      <created>1745761419737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745761419737</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="II part finished: own implementation of linear and logistic regression" />
+    <MESSAGE value="Add calculations scores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add calculations scores" />
   </component>
 </project>
