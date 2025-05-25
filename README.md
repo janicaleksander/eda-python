@@ -1,7 +1,7 @@
 # Exploratory Data Analysis (EDA) with Python
 
 This project demonstrates a basic exploratory data analysis (EDA) approach using Python tools such as Seaborn and Matplotlib. It covers data loading, calculating statistics, and visualizing numerical and categorical features.
-
+Also, here it is implemented multiclass logistic regression from scratch.
 ## Requirements
 - Python >= 3.12
 - Git
