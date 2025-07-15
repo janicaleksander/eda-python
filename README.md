@@ -1,7 +1,21 @@
 # Exploratory Data Analysis (EDA) with Python
 
-This project demonstrates a basic exploratory data analysis (EDA) approach using Python tools such as Seaborn and Matplotlib. It covers data loading, calculating statistics, and visualizing numerical and categorical features.
-Also, here it is implemented multiclass logistic regression from scratch.
+This project demonstrates a full-cycle data science workflow — from in-depth exploratory data analysis (EDA) to implementing multiclass logistic regression **from scratch**, followed by **efficiency boosting techniques** and the construction of **Mixture of Experts** models.
+
+The codebase not only illustrates strong fundamentals in data analysis and statistical modeling, but also emphasizes **clean code**, **modular design**, and **visual interpretability**, making it a strong demonstration of real-world applied machine learning.
+
+---
+
+##  Project Highlights
+
+- Exploratory Data Analysis using Seaborn & Matplotlib
+- Multiclass Logistic Regression implemented manually (no `scikit-learn`)
+- Model efficiency boosting strategies
+- Building and training a Mixture of Experts model
+- Configurable visualization output (save or show plots)
+- Focus on readability and extensibility for research or production
+
+---
 ## Requirements
 - Python >= 3.12
 - Git
