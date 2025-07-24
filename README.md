@@ -1,79 +1,101 @@
-# Exploratory Data Analysis (EDA) with Python
+# Exploratory Data Analysis & Logistic Regression from Scratch
 
+[](https://choosealicense.com/licenses/mit/)
 
-This repository centers around the notebook `ablation_study.ipynb`, which captures the most important insights, techniques, and lessons from my work on exploratory data analysis and model building. It serves as the main reference point for understanding the logic, motivation, and decisions behind the project's structure.
+This project provides a comprehensive Exploratory Data Analysis (EDA) using Python's data science stack (**Pandas**, **Seaborn**, and **Matplotlib**). It also features a from-scratch implementation of **multiclass logistic regression**, complete with performance enhancements.
 
-This project demonstrates a full-cycle data science workflow — from in-depth exploratory data analysis (EDA) to implementing multiclass logistic regression **from scratch**, followed by **efficiency boosting techniques** and the construction of **Mixture of Experts** models.
+-----
 
-The codebase not only illustrates strong fundamentals in data analysis and statistical modeling, but also emphasizes **clean code**, **modular design**, and **visual interpretability**, making it a strong demonstration of real-world applied machine learning.
+## ✨ Features
 
+  * **Full EDA**: In-depth analysis with visualizations for numerical and categorical features.
+  * **Custom Model**: Multiclass logistic regression implemented from scratch based on its underlying mathematical formulas.
+  * **Performance Boost**: Techniques to improve the efficiency of the regression model.
 
----
+-----
 
-##  Project Highlights
+## 🛠️ Installation
 
-- Exploratory Data Analysis using Seaborn & Matplotlib
-- Multiclass Logistic Regression implemented manually (no `scikit-learn`)
-- Model efficiency boosting strategies
-- Building and training a Mixture of Experts model
-- Configurable visualization output (save or show plots)
-- Focus on readability and extensibility for research or production
+To get a local copy up and running, follow these steps.
 
----
-## Requirements
-- Python >= 3.12
-- Git
+1.  **Clone the repository:**
 
-## Installation
-Clone the repository:
-```bash
-git clone "repository link"
-cd repository-folder
-```
+    ```bash
+    git clone "YOUR_REPOSITORY_LINK"
+    cd repository-folder
+    ```
 
-### On Linux/macOS:
-Create and activate a virtual environment (optional but recommended):
-```bash
-python -m venv venv_name
-source venv_name/bin/activate
-```
+2.  **Create and activate a virtual environment:**
 
-### On Windows:
-Create and activate a virtual environment:
-```powershell
-python -m venv venv_name
-venv_name\Scripts\activate
-```
+      * On **macOS/Linux**:
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+      * On **Windows**:
+        ```powershell
+        python -m venv venv
+        .\venv\Scripts\activate
+        ```
 
-Install dependencies:
-```bash
-pip install --no-cache-dir -r requirements.txt
-```
+3.  **Install the required dependencies:**
 
-## Usage
-Run the main analysis script. In this script, you can configure whether you want to only generate and save images or also display the generated visualizations.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-If you want to display generated visualizations, modify `data_analysis_main.py`:
-```python
-to_show = True
-```
-Then run:
-```bash
-python data_analysis_main.py
-```
+-----
 
-If you want to run specific script e.g only for heatmap 
-you have to:
+## 🚀 Usage
+
+You can run the entire analysis pipeline or execute specific scripts individually.
+
+### Run the Main Analysis
+
+The main script `data_analysis_main.py` runs the complete workflow.
+
+1.  To control whether plots are displayed on-screen, open `data_analysis_main.py` and set the `to_show` variable:
+
+    ```python
+    # Set to True to display plots, False to only save them as image files
+    to_show = True 
+    ```
+
+2.  Execute the script from the root directory:
+
+    ```bash
+    python data_analysis_main.py
+    ```
+
+### Run a Specific Script
+
+To run an individual analysis script (e.g., to generate only the heatmap), navigate to the `data_analysis` directory and run the desired file.
+
 ```bash
 cd data_analysis
-python "script_name"
+python your_script_name.py
 ```
-If you have problem with showing  plots you have to install python3-tkinter (especially when you are working on Linux)
-## Libraries Used
-- Pandas
-- Seaborn
-- Matplotlib
 
-## License
-This project is licensed under the MIT License.
+-----
 
+## 📂 Project Structure
+
+```
+.
+├── data_analysis/          # Contains individual scripts for specific visualizations
+│   ├── box_plot.py
+│   └── ...
+├── final_report.pdf        # Detailed report summarizing the project's findings and analysis.
+├── data_analysis_main.py   # Main script to run the entire EDA pipeline
+├── ablation_study.ipynb    # Notebook for conducting model ablation studies
+├── linear_regression.ipynb   # Notebook for Linear Regression analysis
+├── logistic_regression.ipynb # Notebook with the from-scratch Logistic Regression
+├── requirements.txt        # Project dependencies
+└── README.md
+```
+
+-----
+
+## 📜 License
+
+This project is distributed under the MIT License. See the `LICENSE` file for more information.
