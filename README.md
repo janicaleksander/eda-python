@@ -1,8 +1,12 @@
 # Exploratory Data Analysis (EDA) with Python
 
+
+This repository centers around the notebook `ablation_study.ipynb`, which captures the most important insights, techniques, and lessons from my work on exploratory data analysis and model building. It serves as the main reference point for understanding the logic, motivation, and decisions behind the project's structure.
+
 This project demonstrates a full-cycle data science workflow — from in-depth exploratory data analysis (EDA) to implementing multiclass logistic regression **from scratch**, followed by **efficiency boosting techniques** and the construction of **Mixture of Experts** models.
 
 The codebase not only illustrates strong fundamentals in data analysis and statistical modeling, but also emphasizes **clean code**, **modular design**, and **visual interpretability**, making it a strong demonstration of real-world applied machine learning.
+
 
 ---
 
