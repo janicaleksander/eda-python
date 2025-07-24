@@ -14,6 +14,25 @@ This project provides a comprehensive Exploratory Data Analysis (EDA) using Pyth
 
 -----
 
+
+
+## 📂 Project Structure
+
+```
+.
+├── data_analysis/          # Contains individual scripts for specific visualizations
+│   ├── box_plot.py
+│   └── ...
+├── final_report.pdf        # Detailed report summarizing the project's findings and analysis.
+├── data_analysis_main.py   # Main script to run the entire EDA pipeline
+├── ablation_study.ipynb    # Notebook for conducting model ablation studies
+├── linear_regression.ipynb   # Notebook for Linear Regression analysis
+├── logistic_regression.ipynb # Notebook with the from-scratch Logistic Regression
+├── requirements.txt        # Project dependencies
+└── README.md
+```
+
+-----
 ## 🛠️ Installation
 
 To get a local copy up and running, follow these steps.
@@ -76,25 +95,6 @@ cd data_analysis
 python your_script_name.py
 ```
 
------
-
-## 📂 Project Structure
-
-```
-.
-├── data_analysis/          # Contains individual scripts for specific visualizations
-│   ├── box_plot.py
-│   └── ...
-├── final_report.pdf        # Detailed report summarizing the project's findings and analysis.
-├── data_analysis_main.py   # Main script to run the entire EDA pipeline
-├── ablation_study.ipynb    # Notebook for conducting model ablation studies
-├── linear_regression.ipynb   # Notebook for Linear Regression analysis
-├── logistic_regression.ipynb # Notebook with the from-scratch Logistic Regression
-├── requirements.txt        # Project dependencies
-└── README.md
-```
-
------
 
 ## 📜 License
 
